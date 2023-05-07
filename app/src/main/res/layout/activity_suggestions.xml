@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewsuggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:text="SUGGESTIONS" />
+
+    <TextView
+        android:id="@+id/textViewjue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="※ 전송하신 건의사항은 수정이 불가하니, \n유의하여 작성해주세요" />
+
+    <EditText
+        android:gravity="top"
+        android:layout_gravity="center"
+        android:layout_margin="28dp"
+        android:layout_width="350dp"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:id="@+id/edittextsugges"
+        android:layout_height="325dp"
+        android:cursorVisible="true"
+        android:hint=" Enter Suggestions"
+        android:background="@drawable/border"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/buttonsugges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#969696"
+        android:text="SEND" />
+
+
+    <Button
+        android:id="@+id/mainBtn"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="140dp"
+        android:layout_marginLeft="140dp"
+        android:backgroundTint="#969696"
+        android:text="메인으로 돌아가기"/>
+
+</LinearLayout>

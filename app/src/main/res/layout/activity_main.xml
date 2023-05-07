@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:background="@drawable/backbor"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:paddingBottom="30dp"
+        app:srcCompat="@drawable/noonsong" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="숙명 스터디카페 예약"
+        android:textColor="@color/black"
+        android:textSize="100px"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp">
+
+        <android.widget.Button
+            android:id="@+id/seatPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="#969696"
+            android:text="좌석보기"
+            android:textColor="@color/white" />
+
+        <android.widget.Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="#969696"
+            android:text="회원가입/로그인"
+            android:textColor="@color/white" />
+
+
+        <android.widget.Button
+            android:id="@+id/exitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="#8c8c8c	"
+            android:text="퇴실하기"
+            android:textColor="@color/white" />
+
+        <android.widget.Button
+            android:id="@+id/sugBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="#505050"
+            android:text="건의함"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

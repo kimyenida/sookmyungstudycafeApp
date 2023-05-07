@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF"
+    android:id="@+id/paymentLayout">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="예약이 완료되었습니다" />
+
+    <TextView
+        android:id="@+id/seatNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/costText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/mainBtn"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="140dp"
+        android:layout_marginLeft="140dp"
+        android:text="메인으로 돌아가기"/>
+</LinearLayout>
